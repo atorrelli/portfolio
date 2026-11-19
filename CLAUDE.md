@@ -13,10 +13,8 @@ Single static page: `index.html` (no framework, no build step).
 - Do not use the GitHub web editor to edit or rename `index.html`: the file is too large and a rename once saved it empty.
 - Commit messages: short, in English, describing what changed.
 
-## Working with the owner
+## Language
 - Talk to the owner in neutral Latin American Spanish (tuteo). All website content stays in English.
-- The owner is new to Git, GitHub and Claude Code. Before running any command, explain what it does and why, then wait for approval. (Learning-phase rule: remove this line when the owner says so.)
-- Make one change at a time and confirm what happened after each step.
 
 ## Current state of `index.html`
 - About 2.5 MB but only ~15 KB of real code: 16 images (13 JPG, 3 PNG) are embedded as base64 inside the file. Three lines hold most of the weight, so never print the file whole; strip `data:...;base64,...` before reading it.
